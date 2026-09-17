@@ -27,7 +27,7 @@ def create_app(config_name='development'):
     app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'ayuaahar-dev-secret-key-change-in-production')
     app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get(
         'DATABASE_URL', 
-        'postgresql://postgres:11kapil1235@localhost:5432/ayuaahar'
+        'postgresql://postgres:postgre@localhost:5432/ayuaahar'
     )
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     app.config['JWT_EXPIRATION_DELTA'] = timedelta(days=7)
