@@ -37,7 +37,7 @@ def create_app(config_name='development'):
             "origins": [
                 "http://localhost:3000", 
                 "http://localhost:5173", 
-                "https://ayu-adhar.vercel.app"
+                "https://ayu-aahar.vercel.app"
             ],
             "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
             "allow_headers": ["Authorization", "Content-Type"]
